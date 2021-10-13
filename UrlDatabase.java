@@ -118,7 +118,7 @@ class UrlDatabase{
     }
 
     public static void list(){
-        registry.forEach( (k, v) -> System.out.println("Key : " + k + ", Value : " + v)); 
+        System.out.println(registry); 
     }
 
     public static void exit(){
