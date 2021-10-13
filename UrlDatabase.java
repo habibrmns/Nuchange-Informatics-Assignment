@@ -32,7 +32,7 @@ class UrlDatabase{
                 storeurl(url);
                 break;
             case "get":
-                get(url);
+                System.out.println(get(url));
                 break;
             case "count":
                 System.out.println(count(url));
